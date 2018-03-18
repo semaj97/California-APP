@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G17023" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="California_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="travis-yewell-314075-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="Gkr-cT-3k2">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="California " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="16Z-BF-HcI">
+                                <rect key="frame" x="0.0" y="234" width="220" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="46"/>
+                                <color key="textColor" red="1" green="0.97673604609999998" blue="0.99858036510000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.99835759400000001" green="0.44507995890000002" blue="0.20356523300000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bdy-pz-xYx">
+                                <rect key="frame" x="16" y="584" width="343" height="38"/>
+                                <color key="backgroundColor" red="0.72941176470000002" green="0.2156862745" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="FIND OUT WHAT'S CRACKIN">
+                                    <color key="titleColor" red="1" green="0.97673604609999998" blue="0.99858036510000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="y8L-Fw-oFZ" kind="show" id="C9h-Hb-koT"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(lifesytle,culture,food)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pOK-gu-oCI">
+                                <rect key="frame" x="16" y="289" width="256" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bdy-pz-xYx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="48l-57-3UZ"/>
+                            <constraint firstItem="bdy-pz-xYx" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="C0S-9p-Y08"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Gkr-cT-3k2" secondAttribute="bottom" id="XiZ-5G-XIT"/>
+                            <constraint firstItem="Gkr-cT-3k2" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="bXB-BN-LJc"/>
+                            <constraint firstItem="bdy-pz-xYx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fkg-X7-2Po"/>
+                            <constraint firstAttribute="trailing" secondItem="Gkr-cT-3k2" secondAttribute="trailing" id="jNX-jr-qIR"/>
+                            <constraint firstItem="Gkr-cT-3k2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="vUd-eO-Zy7"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="bdy-pz-xYx" secondAttribute="bottom" constant="45" id="vmB-nw-ZIp"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="crackinButton" destination="bdy-pz-xYx" id="1FN-cg-ED5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="122.78860569715144"/>
+        </scene>
+        <!--Second screen-->
+        <scene sceneID="5xV-pe-9Du">
+            <objects>
+                <viewController id="y8L-Fw-oFZ" customClass="Second_screen" customModule="California_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mNW-TG-f72"/>
+                        <viewControllerLayoutGuide type="bottom" id="bcQ-yw-WA0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9Um-eM-1AB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="roberto-nickson-g-237027-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="15v-p6-cR6">
+                                <rect key="frame" x="0.0" y="-14" width="375" height="184"/>
+                            </imageView>
+                            <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ciT-fW-Zyf">
+                                <rect key="frame" x="0.0" y="-2" width="375" height="172"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT CALI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aKe-VN-WXz">
+                                <rect key="frame" x="116" y="49" width="159" height="61"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="159" id="dgA-jv-uRS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="don-dd-glq">
+                                <rect key="frame" x="7" y="12" width="45" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="peb-5S-Rc2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="1" green="0.97673604609999998" blue="0.99858036510000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="backButton:" destination="y8L-Fw-oFZ" eventType="touchUpInside" id="J95-c0-wLQ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Population" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CZd-nk-jae">
+                                <rect key="frame" x="3" y="185" width="81" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Q4I-in-IUN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="39.54 million" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RsE-gP-tbL">
+                                <rect key="frame" x="7" y="210" width="110" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="HH8-9D-sHr"/>
+                                    <constraint firstAttribute="width" constant="110" id="qmA-Jo-pyh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="don-dd-glq" firstAttribute="leading" secondItem="RsE-gP-tbL" secondAttribute="leading" id="0BY-00-hzR"/>
+                            <constraint firstItem="don-dd-glq" firstAttribute="top" secondItem="9Um-eM-1AB" secondAttribute="top" constant="12" id="1ac-C3-3t4"/>
+                            <constraint firstItem="CZd-nk-jae" firstAttribute="top" secondItem="ciT-fW-Zyf" secondAttribute="bottom" constant="15" id="6H6-rf-0v4"/>
+                            <constraint firstItem="15v-p6-cR6" firstAttribute="bottom" secondItem="ciT-fW-Zyf" secondAttribute="bottom" id="Jft-YL-7IH"/>
+                            <constraint firstItem="RsE-gP-tbL" firstAttribute="top" secondItem="CZd-nk-jae" secondAttribute="bottom" constant="4" id="KlU-FJ-7O1"/>
+                            <constraint firstItem="15v-p6-cR6" firstAttribute="leading" secondItem="ciT-fW-Zyf" secondAttribute="leading" id="N1W-CJ-TXV"/>
+                            <constraint firstItem="aKe-VN-WXz" firstAttribute="top" secondItem="mNW-TG-f72" secondAttribute="bottom" constant="29" id="O9i-ri-KD3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aKe-VN-WXz" secondAttribute="trailing" constant="84" id="Q4R-bN-r2F"/>
+                            <constraint firstItem="15v-p6-cR6" firstAttribute="top" secondItem="9Um-eM-1AB" secondAttribute="topMargin" constant="-14" id="Vaw-bO-LZh"/>
+                            <constraint firstItem="ciT-fW-Zyf" firstAttribute="leading" secondItem="9Um-eM-1AB" secondAttribute="leading" id="bfX-YP-X7x"/>
+                            <constraint firstItem="ciT-fW-Zyf" firstAttribute="top" secondItem="9Um-eM-1AB" secondAttribute="topMargin" constant="-2" id="hBn-Yj-dzN"/>
+                            <constraint firstItem="bcQ-yw-WA0" firstAttribute="top" secondItem="aKe-VN-WXz" secondAttribute="bottom" constant="557" id="njg-hX-jJu"/>
+                            <constraint firstItem="CZd-nk-jae" firstAttribute="leading" secondItem="9Um-eM-1AB" secondAttribute="leadingMargin" constant="-13" id="no1-FG-uR4"/>
+                            <constraint firstItem="15v-p6-cR6" firstAttribute="trailing" secondItem="ciT-fW-Zyf" secondAttribute="trailing" id="rdM-Ah-gLd"/>
+                            <constraint firstAttribute="trailing" secondItem="ciT-fW-Zyf" secondAttribute="trailing" id="t2T-f9-gCa"/>
+                            <constraint firstItem="don-dd-glq" firstAttribute="leading" secondItem="9Um-eM-1AB" secondAttribute="leadingMargin" constant="-9" id="tzi-CD-puL"/>
+                            <constraint firstItem="bcQ-yw-WA0" firstAttribute="top" secondItem="RsE-gP-tbL" secondAttribute="bottom" constant="434" id="u6R-mI-P9B"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lvi-T7-MwG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="988" y="122.78860569715144"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="roberto-nickson-g-237027-unsplash" width="2976" height="4464"/>
+        <image name="travis-yewell-314075-unsplash" width="6000" height="4000"/>
+    </resources>
+</document>
